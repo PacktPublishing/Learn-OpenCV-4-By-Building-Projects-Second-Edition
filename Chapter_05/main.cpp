@@ -65,7 +65,7 @@ void ConnectedComponents(Mat img)
 		Mat mask= labels==i;
 		output.setTo(randomColor(rng), mask);
 	}
-	imshow("Result", output);
+	//imshow("Result", output);
 	miw->addImage("Result", output);
 }
 

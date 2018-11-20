@@ -55,7 +55,7 @@ int main(int argc, char* argv[])
         pMOG2->apply(frame, fgMaskMOG2);
         
         // Show the current frame
-        //imshow("Frame", frame);
+        imshow("Frame", frame);
         
         // Show the MOG2 foreground mask
         imshow("FG Mask MOG 2", fgMaskMOG2);

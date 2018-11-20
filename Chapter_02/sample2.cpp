@@ -40,7 +40,7 @@ int main( int argc, const char** argv )
 	if(videoFile != "")
 		cap.open(videoFile);
 	else
-		cap.open(0);
+		cap.open("Recording3.webm");
     if(!cap.isOpened())  // check if we succeeded
         return -1;
 
@@ -49,6 +49,8 @@ int main( int argc, const char** argv )
     {
         Mat frame;
         cap >> frame; // get a new frame from camera
+        if(frame.empty())
+        	return 0;
         imshow("Video", frame);
         if(waitKey(30) >= 0) break;
     }

@@ -99,7 +99,8 @@ int main(int argc, char* argv[])
             bitwise_and(frameROI, frameROI, maskedFrame, grayMaskSmallThreshInv);
             
             // Add the above masked images and place it in the original frame ROI to create the final image
-            add(maskedFace, maskedFrame, frame(Rect(x,y,w,h)));
+            if(x>0 && y>0 && x+w < frame.cols && y+h < frame.rows)
+                add(maskedFace, maskedFrame, frame(Rect(x,y,w,h)));
         }
         
         // Show the current frame

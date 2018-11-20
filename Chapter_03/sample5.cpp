@@ -30,7 +30,6 @@ int loadTexture() {
     glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_MIN_FILTER,GL_LINEAR);
     
     glPixelStorei(GL_UNPACK_ALIGNMENT, 1);
-
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, frame.cols, frame.rows,0, GL_BGR, GL_UNSIGNED_BYTE, frame.data);
     return 0;
 
@@ -57,14 +56,17 @@ int main( int argc, const char** argv )
 {
     // Open WebCam
     camera.open(0);
-    if(!camera.isOpened())
-        return -1;
+    if(!camera.isOpened()){
+        camera.open("Recording3.webm");
+        if(!camera.isOpened())
+            return -1;
+    }
 
     // Create new windows
     namedWindow("OpenGL Camera", WINDOW_OPENGL);
     
     // Enable texture
-    glEnable( GL_TEXTURE_2D );  
+    glEnable( GL_TEXTURE_2D );
     glGenTextures(1, &texture);
     
     setOpenGlDrawCallback("OpenGL Camera", on_opengl);
