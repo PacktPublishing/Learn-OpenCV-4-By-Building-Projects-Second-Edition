@@ -14,6 +14,12 @@ int main( int argc, const char** argv )
 	Mat color= imread("../lena.jpg");
 	Mat gray= imread("../lena.jpg", IMREAD_GRAYSCALE);
 	
+	if(! color.data ) // Check for invalid input
+	{
+		cout << "Could not open or find the image" << std::endl ;
+	 	return -1;
+	}
+
 	// Write images
 	imwrite("lenaGray.jpg", gray);
 	
