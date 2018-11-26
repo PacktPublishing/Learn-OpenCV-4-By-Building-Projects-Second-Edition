@@ -18,8 +18,16 @@ int main( int argc, const char** argv )
 	
 	// Create windows
 	namedWindow("Lena", WINDOW_NORMAL);
+	# Checking if Lena image has been loaded
+	if (!lena.data) {
+	 	cout << "Lena image missing!" << enld;
+	 	return -1;
+	}
 	namedWindow("Photo", WINDOW_AUTOSIZE);
-
+	if (!photo.data) {
+	 	cout << "Lena image missing!" << enld;
+	 	return -1;
+	}
 	// Move window
 	moveWindow("Lena", 10, 10);
 	moveWindow("Photo", 520, 10);
