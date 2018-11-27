@@ -60,17 +60,12 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 **David Millán Escrivá**
 completed his studies in IT from the Universitat Politécnica de Valencia in 2005. In 2014, he completed his Master's degree in artificial intelligence, computer graphics, and pattern recognition, focusing on pattern recognition and computer vision. David now has more than 13 years' experience in IT, with more than 9 years' experience in computer vision, computer graphics, and pattern recognition, working on different projects and start-ups, applying his knowledge of computer vision, optical character recognition, and augmented reality.
 
-**Vinicius Godoy**
+**Vinicius G. Mendonça**
 is a computer graphics university professor at PUCPR. He started programming with C++ 20 years ago and has ventured into the field of computer gaming and computer graphics over the last 12 years. He was also a reviewer of the OpenNI Cookbook by Packt Publishing, among other Packt books. In his research, he has used Kinect, OpenNI, and OpenCV to recognize Brazilian sign-language gestures. His field of interest includes image processing, Computer Vision, design patterns, project management, and parallel applications.
 
 **Prateek Joshi**
 is an artificial intelligence researcher, an author of eight published books, and a TEDx speaker. He has been featured in Forbes 30 Under 30, CNBC, TechCrunch, Silicon Valley Business Journal, and many more publications. He is the founder of Pluto AI, a venture-funded Silicon Valley start-up building an intelligence platform for water facilities. He graduated from the University of Southern California with a Master's degree specializing in Artificial Intelligence. He has previously worked at NVIDIA and Microsoft Research.
 
-****
-0
-
-****
-0
 
 ## Other books by the authors
 [Build with OpenCV](https://www.packtpub.com/application-development/build-opencv?utm_source=github&utm_medium=repository&utm_campaign=9781788294522 )
