@@ -56,10 +56,6 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 * OpenCV 3.x with Python By Example - Second Edition [[Packt]](https://www.packtpub.com/application-development/opencv-3x-python-example-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788396905 ) [[Amazon]](https://www.amazon.com/dp/1788396901)
 
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
-
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
-
 ## Get to Know the Author
 **David Millán Escrivá**
 completed his studies in IT from the Universitat Politécnica de Valencia in 2005. In 2014, he completed his Master's degree in artificial intelligence, computer graphics, and pattern recognition, focusing on pattern recognition and computer vision. David now has more than 13 years' experience in IT, with more than 9 years' experience in computer vision, computer graphics, and pattern recognition, working on different projects and start-ups, applying his knowledge of computer vision, optical character recognition, and augmented reality.
