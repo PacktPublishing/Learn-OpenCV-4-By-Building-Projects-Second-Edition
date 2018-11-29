@@ -45,8 +45,7 @@ With the following software and hardware list you can run all code files present
 | Chapter | Software required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
 | 3 | Qt, OpenGL | Windows, Mac OS X, and Linux (Any) |
-| 10 | Tesseract | Windows, Mac OS X, and Linux (Any) |
-| 11 | Tesseract | Windows, Mac OS X, and Linux (Any) |
+| 10, 11 | Tesseract | Windows, Mac OS X, and Linux (Any) |
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](http://www.packtpub.com/sites/default/files/downloads/Bookname_ColorImages.pdf).
 
