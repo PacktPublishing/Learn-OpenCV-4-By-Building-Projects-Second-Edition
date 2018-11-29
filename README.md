@@ -47,7 +47,7 @@ With the following software and hardware list you can run all code files present
 | 3 | Qt, OpenGL | Windows, Mac OS X, and Linux (Any) |
 | 10, 11 | Tesseract | Windows, Mac OS X, and Linux (Any) |
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](http://www.packtpub.com/sites/default/files/downloads/Bookname_ColorImages.pdf).
+We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781789341225_ColorImages.pdf).
 
 ## Code in Action
 
