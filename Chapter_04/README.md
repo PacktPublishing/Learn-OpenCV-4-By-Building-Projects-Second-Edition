@@ -1,9 +1,9 @@
-# Chapter 02. An Introduction to the Basics of OpenCV 
+# Chapter 04. Delving into Histogram and Filters 
 
 ## Requirements
 
-- OpenCV 4.0
-
+- QT library
+- OpenCV 4.0 with QT
 
 ## Steps to build
 
@@ -21,8 +21,5 @@ make
 The following applications are generated.
 
 ```
-./sample1
-./sample2
-./sample3
-./Chapter2
+./ch4_Phototool
 ```

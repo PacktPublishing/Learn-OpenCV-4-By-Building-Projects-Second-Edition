@@ -1,9 +1,9 @@
-# Chapter 02. An Introduction to the Basics of OpenCV 
+# Chapter 11. Text Recognition with Tesseract 
 
 ## Requirements
 
 - OpenCV 4.0
-
+- Tesseract
 
 ## Steps to build
 
@@ -21,8 +21,6 @@ make
 The following applications are generated.
 
 ```
-./sample1
-./sample2
-./sample3
-./Chapter2
+./detection
+./ocr  
 ```

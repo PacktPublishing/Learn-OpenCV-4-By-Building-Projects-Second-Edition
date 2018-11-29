@@ -1,3 +1,35 @@
+# Chapter 03.  Learning Graphical User Interfaces 
+
+## Requirements
+
+- QT library
+- VTK library
+- OpenCV 4.0 with QT and VTK support
+
+## Steps to build
+
+To compile on linux, Mac or windows using Mingw
+
+```
+mkdir build
+cd build
+cmake ..
+make
+```
+
+## Executables
+
+The following applications are generated.
+
+```
+./ch3_sample1
+./ch3_sample2
+./ch3_sample3
+./ch3_sample4
+./ch3_sample5
+./ch3_sample6
+```
+
 Sample 1. Basic GUI
 - Differences between QT and Normal GUI
 - Create a window
@@ -29,9 +61,3 @@ Sample 5. Advanced UI. OpenGL
 
 Sample 6. Advanced UI. VTK
 - Create basic VTK sample
-
-PhotoTool
-- Create window.
-- 3 buttons. Color -> Gray
-             Equalize Image
-             Histogram. Threshold slider

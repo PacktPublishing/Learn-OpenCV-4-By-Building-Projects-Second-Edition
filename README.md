@@ -46,6 +46,7 @@ With the following software and hardware list you can run all code files present
 | -------- | ------------------------------------ | ----------------------------------- |
 | 3 | Qt, OpenGL | Windows, Mac OS X, and Linux (Any) |
 | 10, 11 | Tesseract | Windows, Mac OS X, and Linux (Any) |
+| 12 | Protobuf 3.5.1, OpenCV compiled with DNN support module | Windows, Mac OS, and Linux (Any) |
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781789341225_ColorImages.pdf).
 

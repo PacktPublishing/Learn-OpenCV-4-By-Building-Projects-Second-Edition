@@ -1,9 +1,9 @@
-# Chapter 02. An Introduction to the Basics of OpenCV 
+# Chapter 09. Learning Object Tracking 
 
 ## Requirements
 
 - OpenCV 4.0
-
+- WebCam
 
 ## Steps to build
 
@@ -21,8 +21,10 @@ make
 The following applications are generated.
 
 ```
-./sample1
-./sample2
-./sample3
-./Chapter2
+./camshiftTracker  
+./coloredObjectTracker  
+./farnebackTracker  
+./goodFeaturesToTrack  
+./harrisCornersTracker  
+./lucasKanadeTracker
 ```

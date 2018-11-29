@@ -1,9 +1,9 @@
-# Chapter 02. An Introduction to the Basics of OpenCV 
+# Chapter 10. Developing Segmentation Algorithms for Text Recognition 
 
 ## Requirements
 
 - OpenCV 4.0
-
+- Tesseract
 
 ## Steps to build
 
@@ -21,8 +21,7 @@ make
 The following applications are generated.
 
 ```
-./sample1
-./sample2
-./sample3
-./Chapter2
+./segment  
+./segmentOcr  
+./segmentOcrHigh
 ```
