@@ -49,6 +49,12 @@ With the following software and hardware list you can run all code files present
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](http://www.packtpub.com/sites/default/files/downloads/Bookname_ColorImages.pdf).
 
+##Code in Action
+
+Click on the following link to see the Code in Action:
+
+[Placeholder link]  (www.youtube.com/URL)
+
 ### Related products
 * Computer Vision with OpenCV 3 and Qt5 [[Packt]](https://www.packtpub.com/application-development/computer-vision-opencv-3-and-qt5?utm_source=github&utm_medium=repository&utm_campaign=9781788472395 ) [[Amazon]](https://www.amazon.com/dp/178847239X)
 
