@@ -44,8 +44,7 @@ With the following software and hardware list you can run all code files present
 ### Software and Hardware List
 | Chapter | Software required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
-| 3 | Qt | Windows, Mac OS X, and Linux (Any) |
-| 3 | OpenGL | Windows, Mac OS X, and Linux (Any) |
+| 3 | Qt, OpenGL | Windows, Mac OS X, and Linux (Any) |
 | 10 | Tesseract | Windows, Mac OS X, and Linux (Any) |
 | 11 | Tesseract | Windows, Mac OS X, and Linux (Any) |
 
