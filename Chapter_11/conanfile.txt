@@ -1,0 +1,12 @@
+[requires]
+OpenCV/master@damiles/stable
+
+[generators]
+cmake
+
+[options]
+OpenCV:opencv_text=True
+OpenCV:opencv_dnn_objdetect=False
+OpenCV:opencv_dnn=True
+OpenCV:opencv_optflow=False
+OpenCV:opencv_superres=False
