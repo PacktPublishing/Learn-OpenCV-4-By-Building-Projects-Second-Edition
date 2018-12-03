@@ -4,11 +4,11 @@
 
 - QT library
 - VTK library
-- OpenCV 4.0 with QT and VTK support
+- OpenCV 4.0 with Qt and VTK support
 
 ## Steps to build
 
-To compile on linux, Mac or windows using Mingw
+To compile on Linux, mac or Windows using Mingw
 
 ```
 mkdir build
@@ -31,14 +31,14 @@ The following applications are generated.
 ```
 
 Sample 1. Basic GUI
-- Differences between QT and Normal GUI
+- Differences between Qt and Normal GUI
 - Create a window
 - Move
 - Resize
 - Wait for key
 - Destroy
 
-Sample 2. QT functions
+Sample 2. Qt functions
 - Properties window
 - Overlay
 - Status Bar
@@ -56,7 +56,7 @@ Sample 4. Create a button
 
 Sample 5. Advanced UI. OpenGL
 - Create an interface
-- Add some boxe
+- Add some boxes
 - Update
 
 Sample 6. Advanced UI. VTK
