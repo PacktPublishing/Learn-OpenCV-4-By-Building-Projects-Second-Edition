@@ -4,7 +4,7 @@
 
 - Protobuf 3.5
 - OpenCV 4.0 With DNN module enabled
-- Download Yolov3 models. (Links provided on the book)
+- Download YOLO v3 models. (Links provided on the book)
 - Webcam (For face detection)
 
 ## Steps to build
