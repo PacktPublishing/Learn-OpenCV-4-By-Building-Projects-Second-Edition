@@ -7,7 +7,7 @@
 
 ## Steps to build
 
-To compile on linux, Mac or windows using Mingw
+To compile on Linux, mac or Windows using Mingw
 
 ```
 mkdir build
