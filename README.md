@@ -1,10 +1,10 @@
 # Learn OpenCV 4 By Building Projects - Second Edition
 
-<a href="https://www.packtpub.com/application-development/learn-opencv-4-building-projects-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789341225"><img src="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B11299%20MockupCover_0.png" alt="Learn OpenCV 4 By Building Projects - Second Edition" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/application-development/learn-opencv-4-building-projects-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789341225"><img src="https://www.packtpub.com/sites/default/files/B11299_new.png" alt="Learn OpenCV 4 By Building Projects - Second Edition" height="256px" align="right"></a>
 
-This is the code repository for [Learn OpenCV 4 By Building Projects - Second Edition](https://www.packtpub.com/application-development/learn-opencv-4-building-projects-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789341225 ), published by Packt.
+This is the code repository for [Learn OpenCV 4 By Building Projects - Second Edition](https://www.packtpub.com/application-development/learn-opencv-4-building-projects-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789341225), published by Packt.
 
-****
+**Build real-world computer vision and image processing applications with OpenCV and C++**
 
 ## What is this book about?
 OpenCV is one of the best open source libraries available, and can help you focus on constructing complete projects on image processing, motion detection, and image segmentation. Whether you’re completely new to computer vision or have a basic understanding of its concepts, Learn OpenCV 4 by Building Projects will be your guide to understanding OpenCV concepts and algorithms through real-world examples and projects. You’ll begin with the installation of OpenCV and the basics of image processing. Then, you’ll cover user interfaces and get deeper into image processing. As you progress through the book, you'll learn complex computer vision algorithms and explore machine learning and face detection. The book then guides you in creating optical flow video analysis and background subtraction in complex scenes. In the concluding chapters, you'll also learn text segmentation and recognition and understand the basics of the new and improved deep learning module. By the end of this book, you'll be familiar with the basics of Open CV—such as matrix operations, filters, and histograms—and you'll have mastered commonly used computer vision techniques to build OpenCV projects from scratch.
