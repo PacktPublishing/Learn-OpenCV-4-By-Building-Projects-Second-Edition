@@ -1,6 +1,6 @@
 # Learn OpenCV 4 By Building Projects - Second Edition
 
-<a href="https://www.packtpub.com/application-development/learn-opencv-4-building-projects-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789341225"><img src="https://www.packtpub.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/b/1/b11299_new.png height="256px" align="right"></a>
+<a href="https://www.packtpub.com/application-development/learn-opencv-4-building-projects-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789341225"><img src="https://www.packtpub.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/b/1/b11299_new.png" height="256px" align="right"></a>
 
 This is the code repository for [Learn OpenCV 4 By Building Projects - Second Edition](https://www.packtpub.com/application-development/learn-opencv-4-building-projects-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789341225), published by Packt.
 
