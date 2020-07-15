@@ -26,9 +26,11 @@ link_directories( ${TESSERACT_LIBRARY_DIRS} )
 
 link_directories( ${LEPTONICA_LIBRARY_DIRS} )
 
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+
 ADD_EXECUTABLE( detection detection.cpp )
-TARGET_LINK_LIBRARIES( detection  ${CONAN_LIBS} ${OPENCV_LIBS}  -pthread -lprotobuf -lpthread ${TESSERACT_LIBRARIES} ${LEPTONICA_LIBRARIES} )
+TARGET_LINK_LIBRARIES( detection  ${CONAN_LIBS} ${OpenCV_LIBS}  -pthread -lprotobuf -lpthread ${TESSERACT_LIBRARIES} ${LEPTONICA_LIBRARIES} )
 
 ADD_EXECUTABLE( ocr ocr.cpp )
-TARGET_LINK_LIBRARIES( ocr  ${CONAN_LIBS} ${OPENCV_LIBS}  -pthread -lprotobuf ${TESSERACT_LIBRARIES} ${LEPTONICA_LIBRARIES})
+TARGET_LINK_LIBRARIES( ocr  ${CONAN_LIBS} ${OpenCV_LIBS}  -pthread -lprotobuf ${TESSERACT_LIBRARIES} ${LEPTONICA_LIBRARIES})
 

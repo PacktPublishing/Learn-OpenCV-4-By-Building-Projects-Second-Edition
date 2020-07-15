@@ -12,8 +12,10 @@ ENDIF()
 # Requires OpenCV v4.0 or later
 FIND_PACKAGE( OpenCV 4 REQUIRED )
 
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+
 ADD_EXECUTABLE( ${PROJECT_NAME} main.cpp )
-TARGET_LINK_LIBRARIES( ${PROJECT_NAME}  ${CONAN_LIBS} ${OPENCV_LIBS} -lprotobuf)
+TARGET_LINK_LIBRARIES( ${PROJECT_NAME}  ${CONAN_LIBS} ${OpenCV_LIBS} -lprotobuf)
 
 ADD_EXECUTABLE( ${PROJECT_NAME}_face resnet_ssd_face.cpp )
-TARGET_LINK_LIBRARIES( ${PROJECT_NAME}_face  ${CONAN_LIBS} ${OPENCV_LIBS} -lprotobuf)
+TARGET_LINK_LIBRARIES( ${PROJECT_NAME}_face  ${CONAN_LIBS} ${OpenCV_LIBS} -lprotobuf)
