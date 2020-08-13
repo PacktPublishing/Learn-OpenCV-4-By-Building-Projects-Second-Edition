@@ -24,8 +24,8 @@ int main( int argc, const char** argv )
 	imwrite("lenaGray.jpg", gray);
 	
 	// Get same pixel with opencv function
-	int myRow=color.cols-1;
-	int myCol=color.rows-1;
+	int myRow=color.rows-1;
+	int myCol=color.cols-1;
 	auto pixel= color.at<Vec3b>(myRow, myCol);
 	cout << "Pixel value (B,G,R): (" << (int)pixel[0] << "," << (int)pixel[1] << "," << (int)pixel[2] << ")" << endl;
 	
